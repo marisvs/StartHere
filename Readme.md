@@ -16,9 +16,9 @@ Hence the goal of the *Cognitive Chess* project:
 Above goal cannot be reached with just a single program, so it is expected that multiple sub projects are developed to deliver small pieces of functionality and when combined, one day, the goal is reached.
 
 The following sub projects are envisaged:
-* Make a [Chess Engine] (../Stockfish/Readme.md). Modify and/or expand an existing chess engine in any way that is deemed useful. Use it to better understand how a computer engine differs from a human player, for instance, in evaluating a position. Another option is to output the searchtree and use it.
+* Make a [Chess Engine] (https://github.com/marisvs/Stockfish/Readme.md). Modify and/or expand an existing chess engine in any way that is deemed useful. Use it to better understand how a computer engine differs from a human player, for instance, in evaluating a position. Another option is to output the searchtree and use it.
 For this purpose [Stockfish] (https://github.com/official-stockfish/Stockfish) is ideal: the strongest engine and open source.
-* Visualize [Static Evaluations] (../StaticEval/Readme.md) during a game, especially of a game with a clear positional element such as a open diagonal.
+* Visualize [Static Evaluations] (https://github.com/marisvs/StaticEval/Readme.md) during a game, especially of a game with a clear positional element such as a open diagonal.
 * Visualize Searchtrees. Chess engines are capable to calculate a million positions per second so the searchtree explodes very quickly. But how does a tree look like, can we learn anything?
 * Search trees contain the raw data about why a move is good or bad. What if we extract information from this tree data, condensing it enormously. What information could be extracted?
 * How about we use this information to feed a chatbot? Could a chess chatbot be built that is able to convey this information?
