@@ -19,9 +19,8 @@ The following sub projects are envisaged:
 * Make a [Chess Engine] (https://github.com/marisvs/Stockfish). Modify and/or expand an existing chess engine in any way that is deemed useful. Use it to better understand how a computer engine differs from a human player, for instance, in evaluating a position. Another option is to output the searchtree and use it.
 For this purpose [Stockfish] (https://github.com/official-stockfish/Stockfish) is ideal: the strongest engine and open source.
 * Visualize [Static Evaluations] (https://github.com/marisvs/StaticEval) during a game, especially of a game with a clear positional element such as a open diagonal.
-* Visualize Searchtrees. Chess engines are capable to calculate a million positions per second so the searchtree explodes very quickly. But how does a tree look like, can we learn anything?
-* Search trees contain the raw data about why a move is good or bad. What if we extract information from this tree data, condensing it enormously. What information could be extracted?
-* How about we use this information to feed a chatbot? Could a chess chatbot be built that is able to convey this information?
+* [Visualize Searchtrees] (https://github.com/marisvs/StaticEval) Chess engines are capable to calculate a million positions per second so the searchtree explodes very quickly. But how does a tree look like, can we learn anything? Search trees contain the raw data about why a move is good or bad. What if we extract information from this tree data, condensing it enormously. What information could be extracted?
+* How about we use this information to feed a chatbot? Could a chess chatbot or [ChessBot] (https://github.com/marisvs/ChessBot) be built that is able to convey this information?
 * How about training a neural with positional and strategic features more close to how human players think about chess?
 
 
